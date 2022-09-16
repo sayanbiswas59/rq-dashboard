@@ -17,12 +17,12 @@ with open("README.md", "r") as fh:
 
 
 setup(
-    name='rq-dashboard',
+    name='rq-dashboard-ssl',
     version=get_version(),
-    url='https://github.com/Parallels/rq-dashboard',
+    url='https://github.com/sayanbiswas59/rq-dashboard',
     license='BSD',
-    author='Vincent Driessen',
-    author_email='vincent@3rdcloud.com',
+    author='Sayan Biswas',
+    author_email='sayanbiswas07@gmail.com',
     description='rq-dashboard is a general purpose, lightweight, web interface'
                 ' to monitor your RQ queues, jobs, and workers in realtime.',
     long_description=long_description,
