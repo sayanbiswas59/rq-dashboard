@@ -94,6 +94,9 @@ def setup_rq_connection():
             port=current_app.config.get('RQ_DASHBOARD_REDIS_PORT', 6379),
             password=current_app.config.get('RQ_DASHBOARD_REDIS_PASSWORD'),
             db=current_app.config.get('RQ_DASHBOARD_REDIS_DB', 0),
+            ssl=True,
+            ssl_ca_certs=None,
+            ssl_cert_reqs=None
         )
 
 
