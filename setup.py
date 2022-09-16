@@ -20,8 +20,8 @@ setup(
     version=get_version(),
     url='https://github.com/sayanbiswas59/rq-dashboard',
     license='BSD',
-    author='Sayan Biswas',
-    author_email='sayanbiswas07@gmail.com',
+    author='Vincent Driessen',
+    author_email='vincent@3rdcloud.com',
     description='rq-dashboard is a general purpose, lightweight, web interface'
                 ' to monitor your RQ queues, jobs, and workers in realtime.',
     long_description=long_description,
@@ -30,7 +30,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     platforms='any',
-    install_requires=['rq>=1.0', 'Flask', 'redis', 'arrow'],
+    install_requires=['rq>=1.0', 'Flask', 'redis', 'arrow', 'redis-sentinel-url'],
     entry_points={
         'console_scripts': [
             'rq-dashboard = rq_dashboard.cli:main'
