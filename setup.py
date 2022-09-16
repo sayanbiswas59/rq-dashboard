@@ -16,7 +16,7 @@ with open("README.md", "r") as fh:
 
 
 setup(
-    name='rq_dashboard_ssl',
+    name='rq_dashboard',
     version=get_version(),
     url='https://github.com/Parallels/rq-dashboard',
     license='BSD',
